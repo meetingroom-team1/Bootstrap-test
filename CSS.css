@@ -1,0 +1,77 @@
+body{
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+    color: #363636;
+    background: #ededed;
+}
+.container{
+    margin-top: 80px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+#photo{
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+img{
+    width:150px;
+    height: 150px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.box h2:before{
+    content: '//';
+}
+ul{
+    list-style: none;
+}
+ul li{
+    width: 100%;
+    float:left;
+    position: relative;
+}
+ul .year{
+    display: inline-block;
+}
+ul .description{
+    width:80%;
+    display: inline-block;
+}
+.contact-item{
+    width: 100%;
+    float: left;
+}
+.contact-item .icon{
+    padding:10px;
+    border-right:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    opacity: 0.2;
+}
+.contact-item .title.only{
+font-size: 30px;
+}
+.contact-item .title{
+    width: 80%;
+    width: calc(100% - 55px);
+    font-size: 1.7em;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.contact-item .description{
+    width: 80%;
+    width: calc(100% - 55px);
+    font-size: 1.0em;
+    opacity: 0.7;
+}
+.contact-item .glyphicon{
+    font-size: 2em;
+}
+.skills-item{
+    background: #F0563D;
+}
