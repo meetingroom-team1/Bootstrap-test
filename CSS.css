@@ -1,7 +1,7 @@
 body{
-    font-family: 'Open Sans', Arial, Tahoma;
+    font-family: '微软雅黑';
     font-weight: 400;
-    font-size: 1em;
+    font-size: 14px;
     color: #363636;
     background: #ededed;
 }
@@ -9,6 +9,9 @@ body{
     margin-top: 80px;
     margin-bottom: 15px;
     background: #fff;
+}
+.head-title span{
+    color: #F0563D;
 }
 #photo{
     width: 160px;
@@ -25,8 +28,12 @@ img{
     -moz-border-radius:50%;
     border-radius:50%;
 }
-.box h2:before{
+.box h3{
+    color: #F0563D;
+}
+.box h3:before{
     content: '//';
+    color:#F0563D;
 }
 ul{
     list-style: none;
@@ -54,24 +61,44 @@ ul .description{
     opacity: 0.2;
 }
 .contact-item .title.only{
-font-size: 30px;
+font-size: 20px;
 }
 .contact-item .title{
     width: 80%;
     width: calc(100% - 55px);
-    font-size: 1.7em;
-    font-weight: 700;
+    font-size: 15px;
     opacity: 0.9;
 }
 .contact-item .description{
     width: 80%;
     width: calc(100% - 55px);
-    font-size: 1.0em;
+    font-size: 10px;
     opacity: 0.7;
 }
 .contact-item .glyphicon{
-    font-size: 2em;
+    font-size: 20px;
 }
 .skills-item{
     background: #F0563D;
+    color: #fff;
+    padding:5px;
+    margin-bottom: 5px;
 }
+.skill{
+    margin: 5px;
+    padding:5px;
+}
+.skill span{
+    color:#F0563D;
+}
+.hobbie{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 25px;
+    background: #A75265;
+    position: relative;
+    font-size: 1.2em;
+}
+
+
